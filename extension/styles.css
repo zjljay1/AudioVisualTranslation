@@ -1,0 +1,36 @@
+#avt-subtitle-container {
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999999;
+    text-align: center;
+    pointer-events: auto;
+    cursor: grab;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    user-select: none;
+    transition: background 0.3s;
+}
+
+#avt-subtitle-container:active {
+    cursor: grabbing;
+}
+
+#avt-translated {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000, -1px -1px 2px #000000;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+#avt-original {
+    font-size: 18px;
+    color: #DDDDDD;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
